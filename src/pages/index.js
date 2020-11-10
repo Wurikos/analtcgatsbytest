@@ -3,6 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Box, Icon, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
+import * as Components from "components";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import { FaYoutube, FaTwitter, FaFacebookF, FaTwitch, FaInstagram } from "react-icons/fa";
 export default (() => {
@@ -630,6 +631,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
+		<Components.EmbedHTML />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
